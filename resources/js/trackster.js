@@ -31,6 +31,7 @@ Trackster.renderTracks = function(tracks) {
 Trackster.searchTracksByTitle = function(title) {
   $.ajax({
     url: "https://ws.audioscrobbler.com/2.0/?method=track.search&track= " + title + "&api_key=" + API_KEY+ '&format=json',
+    datatype: 'jsonp',
     success: function(response) {
       Trackster.renderTracks(response.results.trackmatches.track);
     }

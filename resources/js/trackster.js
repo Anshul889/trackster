@@ -20,7 +20,7 @@ Trackster.renderTracks = function(tracks) {
       '  </div>' +
       '  <div class="col-xs-4">' + track.name + '</div>' +
       '  <div class="col-xs-2">' + track.artist + '</div>' +
-      // '  <div class="col-xs-2">' + track.album + '</div>' +
+      '  <div class="col-xs-2">' + track.album + '</div>' +
       '  <div class="col-xs-2"><img src="' + mediumAlbumArt + '"/></div>' +
       '  <div class="col-xs-2">' + track.popularity + '</div>' +
       '</div>';

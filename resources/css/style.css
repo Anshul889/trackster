@@ -1,29 +1,27 @@
-/*
-  Custom styles for Trackster App
-*/
-
 html {
   font-size: 16px;
 }
 
 body {
-    min-width: 570px;
-    font-family: "Work Sans", sans-serif;
-    line-height: 2.5;
-    color: #4a4a4a;
+  min-width: 570px;
+  font-family: "Work Sans", sans-serif;
+  line-height: 2.5;
+  color: #4a4a4a;
 }
 
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #22013f;
+input:focus {
+  outline: none;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
 }
 
 .header {
   padding: 2.75rem 0;
-  
+  background-color: #22013f;
 }
 
 .header h1 {
